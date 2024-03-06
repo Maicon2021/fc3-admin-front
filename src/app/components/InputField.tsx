@@ -1,14 +1,14 @@
 import React from "react";
 
 
-export type InputFildProps = {
+export type InputFieldProps = {
     id: string;
     label: string;
     type: string;
     placeholder: string;
 };
 
-export const InputFild: React.FC<InputFildProps> = ({ id, label, type, placeholder }) => {
+export const InputField: React.FC<InputFieldProps> = ({ id, label, type, placeholder }) => {
     return (
         <div className=" flex flex-col space-y-1">
 
